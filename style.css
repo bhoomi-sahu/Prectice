@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    padding-top: 20px ;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;     
+
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav h3{
+    font-size: 16px;
+    border: 1.5px solid #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav h1{
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav button{
+   padding: 7px 12px;
+   border-radius: 50px;
+   border: 1.5px solid black;
+   font-size: 15px;
+}
+
+#btn2{
+    color: #fff;
+    background-color: red;
+}
+#btn2:hover{
+    color: #000;
+    background-color: blue;
+}
+
+#main>h1{
+    font-size:170px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+
+}
+
+img{
+  height: 450px;
+  width: 400px;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  transform: translate(-50%, -50%); 
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#types{
+  margin-top: 80px;
+   background-image: url("images/zach-heiberg-fNjQ7F-qopU-unsplash.jpg");
+   height: 200px;   
+}
